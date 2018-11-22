@@ -27,7 +27,7 @@ class Dummy
 
 	public function nombreCompleto()
 	{
-		return $this->apellido . " " . $this->nombre;
+		return $this->nombre . " " . $this->apellido;
 	}
 	
 	public function isValidEmail()
