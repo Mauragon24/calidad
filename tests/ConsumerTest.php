@@ -16,6 +16,7 @@ $consumer->setNombre('Didier');
 $consumer->setApellido('Blanco');
 $result = $consumer->nombreCompleto();
 $this->assertEquals('Didier Blanco', $result);
+        
     }
 
     }
